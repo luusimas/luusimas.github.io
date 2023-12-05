@@ -1,0 +1,474 @@
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(fontes/Poppins-Light.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Lava Pro Grunge';
+    src: url(fontes/Lava\ Pro\ Grunge.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins Negrito';
+    src: url(fontes/Poppins-Bold.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins Hiper Negrito';
+    src: url(fontes/Poppins-ExtraBold.ttf) format('truetype');
+}
+/* ------------- Configurações aplicadas a toda a página -------------  */
+
+html {
+    font-family: 'Poppins';
+    font-size: 100px;
+}
+
+body {
+    background-color: #e2e2e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*--------------------------------------------*/
+
+/* Cores */
+
+:root {
+    --cor-roxo: #72418c;
+    --cor-cinzaclaro: #e2e2e2;
+    --cor-preto: #000;
+    --cor-branco: #ffffff;
+    --cor-verde: #90a27a;
+    --cor-amarelo: #eab245;
+    --cor-azul: #346d92;
+    --cor-roxoclaro: #C9B5D4;
+}
+
+/*--------------------------------------------*/
+
+/* ------------- Navbar configurações ------------- */
+
+nav {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.lista-navbar {
+    margin-top: -28%;
+    position: absolute;
+}
+
+.logonavbar {
+    text-align: left;
+    width: 18%;
+    height: auto;
+}
+
+.linksnavbardiv {
+    color: var(--cor-branco);
+    font-family: 'Poppins Negrito';
+    margin-top: -11%;
+    margin-left: 100%;
+    margin-right: -85%;
+    text-align: right;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Poppins Negrito';
+}
+
+.linksnavbar {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20%;
+}
+
+a:hover {
+    color: var(--cor-cinzaclaro);
+    text-decoration: none;
+    color: inherit;
+    border-bottom: none;
+}
+
+.linkscarrossel {
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------*/
+
+/* Carrossel páginas */
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imagenscarrosel {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+#titulosimagens {
+    margin-top: -30%;
+    color: var(--cor-branco);
+    font-size: 60%;
+    font-family: 'Poppins Negrito';
+}
+/*--------------------------------------------*/
+
+/* Home parte 1 */
+
+.homept1 {
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--cor-preto);
+    background-color: #e2e2e2;
+}
+
+.imgtexto1home {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.texto1home {
+    margin-left: 55%;
+    text-align: right;
+    font-family: 'Lava Pro Grunge';
+    font-size: 50%;
+    line-height: 1.2;
+}
+
+.textoroxohome {
+    color: var(--cor-roxo);
+}
+
+.texto2home {
+    color:var(--cor-preto);
+    font-family: 'Poppins';
+    margin-left: 55%;
+    font-size: 25%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.tituloredes {
+    color: var(--cor-preto);
+    font-size: 35%;
+    font-family: 'Poppins Negrito';
+    margin-top: 5%;
+}
+
+.barraverde1, .barraverde2, .barraverde3 {
+    background-color: var(--cor-verde);
+    height: 5px;
+    width: 100%;
+    border-radius: 3px;
+    
+}
+
+.containers {
+    justify-content: space-between;
+    margin-top: 4%;
+    display: flex;
+}
+
+.container1, .container2, .container3 {
+    height: 100px;
+    width: 27%;
+    background-color: var(--cor-cinzaclaro);
+}
+
+.logoinstagram, .logotwitter, .logoacervo  {
+    height: 60%;
+    width: auto;
+    margin-top: -25%;
+    margin-left: 3%;
+}
+
+.titulocontainer1, .titulocontainer2, .titulocontainer3 {
+    font-family: 'Poppins';
+    font-size: 25%;
+    color: var(--cor-verde);
+    margin-top: -3%;
+    margin-left: 3%;
+}
+
+.textocontainer1, .textocontainer2, .textocontainer3 {
+    font-family: 'Poppins';
+    font-size: 25%;
+    color: var(--cor-preto);
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.imghomept1 {
+    margin-top: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.homept2 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.textohomept2 {
+    color:var(--cor-preto);
+    font-family: 'Poppins';
+    font-size: 25%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.barraverderodape {
+    background-color: var(--cor-verde);
+    height: 5px;
+    border-radius: 3px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+footer {
+    display: flex;
+}
+
+.logorodape {
+    width: 25%;
+    height: auto;
+    border-radius: 3px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.nomeinstagram, .nometwitter, .nomeacervo {
+    font-size: 20%;
+    text-align: right;
+    margin-right: -40%;
+}
+
+.logoinstagram2, .logotwitter2, .logoacervo2  {
+    width: 2%;
+    height: auto;
+    margin-top: 1%;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar500px {
+    display: none;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar500px a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1366px) {
+
+    #titulo {
+        font-size: 30%;
+    }
+
+    #texto {
+        font-size: 18%;
+    }
+
+    .linksnavbardiv {
+        margin-left: 65%;
+        margin-right: -25%;
+    }
+
+    #titulosimagens {
+        font-size: 45%;
+    }
+
+    .texto1home {
+        font-size: 35%;
+    }
+
+    .logorodape {
+        width: 22%;
+    }
+
+    .nomeinstagram, .nometwitter, .nomeacervo {
+        font-size: 15%;
+        text-align: right;
+        margin-right: 25%;
+    }
+
+    .logoinstagram2, .logotwitter2, .logoacervo2  {
+        width: 5%;
+        height: auto;
+        margin-top: 1%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    #titulo {
+        font-size: 20%;
+    }
+
+    #texto {
+        font-size: 12%;
+    }
+
+    #titulosimagens {
+        font-size: 28%;
+    }
+
+    .imagenscarrosel {
+        width: 500px;
+        height: auto;
+    }
+
+    nav {
+        margin-top: -26%;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: -26%;
+        margin-left: 90%;
+        font-size: 40%;
+        color: var(--cor-branco);
+    }
+
+    .navbar500px {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-cinzaclaro);
+    }
+
+    .elementosnav500px {
+        color: var(--cor-preto);
+        font-size: 25%;
+    }
+
+    .homept1 {
+        margin-top: 30%;
+        color: var(--cor-preto);
+        background-color: #e2e2e2;
+    }
+    
+    .imgtexto1home {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    
+    .texto1home {
+        margin-left: 55%;
+        text-align: right;
+        font-family: 'Lava Pro Grunge';
+        font-size: 16.46%;
+        line-height: 1.2;
+        margin-top: 10%;
+    }
+    
+    .textoroxohome {
+        color: var(--cor-roxo);
+    }
+    
+    .texto2home {
+        color:var(--cor-preto);
+        font-family: 'Poppins';
+        font-size: 10.5%;
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+
+    .barraverde1 {
+        width: 100%;
+    }
+
+    .logoinstagram, .logotwitter, .logoacervo {
+        width: 60%;
+        height: auto;
+    }
+
+    .tituloredes {
+        color: var(--cor-preto);
+        font-family: 'Poppins Negrito';
+        margin-top: 10%;
+    }
+
+    .barraverde2, .barraverde3, 
+    .textocontainer1, .textocontainer2, .textocontainer3,
+    .linksnavbar, .titulocontainer1, .titulocontainer2, .titulocontainer3 {
+        display: none;
+    }
+
+    .imghomept1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .barraverderodape {
+        margin-top: 10%;
+    }
+
+    .container4 {
+        margin-top: -17%;
+    }
+
+    .logorodape {
+        margin-top: -50%;
+        width: 30%;
+    }
+
+    .nomeinstagram, .nometwitter, .nomeacervo {
+        font-size: 9%;
+    }
+
+    .logoinstagram2, .logotwitter2, .logoacervo2 {
+        width: 10%;
+        height: auto;
+    }
+
+}

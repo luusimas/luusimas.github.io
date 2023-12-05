@@ -1,0 +1,502 @@
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(fontes/Poppins-Light.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Lava Pro Grunge';
+    src: url(fontes/Lava\ Pro\ Grunge.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins Negrito';
+    src: url(fontes/Poppins-Bold.ttf) format('truetype');
+}
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins Hiper Negrito';
+    src: url(fontes/Poppins-ExtraBold.ttf) format('truetype');
+}
+
+/* ------------- Configurações aplicadas a toda a página -------------  */
+
+html {
+    font-family: 'Poppins';
+    font-size: 100px;
+}
+
+body {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*--------------------------------------------*/
+
+/* Cores */
+
+:root {
+    --cor-roxo: #72418c;
+    --cor-cinzaclaro: #e2e2e2;
+    --cor-preto: #000;
+    --cor-branco: #ffffff;
+    --cor-verde: #90a27a;
+    --cor-amarelo: #eab245;
+    --cor-azul: #346d92;
+    --cor-roxoclaro: #C9B5D4;
+}
+
+/*--------------------------------------------*/
+
+/* ------------- Navbar configurações ------------- */
+
+nav {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.lista-navbar {
+    margin-top: -56%;
+    position: absolute;
+}
+
+.logonavbar {
+    text-align: left;
+    width: 18%;
+    height: auto;
+}
+
+.linksnavbardiv {
+    color: var(--cor-branco);
+    font-family: 'Poppins Negrito';
+    margin-top: -11%;
+    margin-left: 100%;
+    margin-right: -85%;
+    text-align: right;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Poppins Negrito';
+}
+
+.linksnavbar {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20%;
+}
+
+a:hover {
+    color: var(--cor-cinzaclaro);
+    text-decoration: none;
+    color: inherit;
+    border-bottom: none;
+}
+
+.linkscarrossel {
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------*/
+
+/* ------------- Imagem configurações ------------- */
+
+.imageminicio {
+    position: relative;
+    display: inline-block;
+}
+  
+.imagem {
+    width: 100%;
+    height: auto;
+    filter: blur(3px);
+}
+  
+.fraseimagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--cor-branco);
+    font-size: 25%;
+    font-family: 'Poppins Negrito';
+    text-align:center;
+    width: 80%;
+}
+  
+/* ------------- Imagem configurações fim ------------- */
+
+/* ------------- Cultura parte 1 ------------- */
+
+.fundoculturapt1 {
+    background-color: var(--cor-cinzaclaro);
+    width: 100%;
+    height: auto;
+}
+
+.culturapt1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--cor-preto);
+    background-color: #e2e2e2;
+}
+
+.titulografismoearte {
+    font-size: 40%;
+    font-family: 'Poppins Negrito';
+}
+
+.textografismoearte {
+    margin-top: 4%;
+    font-size: 25%;
+    text-align: justify;
+}
+
+.containers {
+    justify-content: space-between;
+    margin-top: 4%;
+    display: flex;
+}
+
+.container1, .container2, .container3 {
+    height: auto;
+    width: 27.5%;
+    background-color: var(--cor-amarelo);
+    text-align: center;
+}
+
+.imgarteplumaria, .imgceramica, .imgpinturacorporal {
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+    border-radius: 1%;
+}
+
+.textoarteplumaria, .textoceramica, .textopinturacorporal {
+    margin-top: -8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 27.5%;
+}
+
+.textografismoearte2 {
+    margin-top: 4%;
+    font-size: 25%;
+    text-align: justify;
+}
+
+.titulopraticareligiosa {
+    margin-top: 4%;
+    font-size: 40%;
+    font-family: 'Poppins Negrito';
+}
+
+.textopraticareligiosa {
+    margin-top: 4%;
+    font-size: 25%;
+    text-align: justify;
+}
+
+/* ------------- Cultura parte 1 ------------- */
+
+.imgkuruap {
+    width: 100%;
+    height: auto;
+    background-color: var(--cor-verde);
+}
+
+.fundoculturapt2 {
+    background-color: var(--cor-verde);
+    margin-top: -4%;
+    width: 100%;
+    height: auto;
+}
+
+.culturapt2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--cor-preto);
+}
+
+.titulocatequizaçao {
+    font-size: 40%;
+    font-family: 'Poppins Negrito';
+    margin-top: -2%;
+}
+
+.textocatequizaçao1 {
+    margin-top: -54.5%;
+    font-size: 25%;
+    text-align: justify;
+    margin-right: 52.5%;
+}
+
+.imgcatequizaçao1 {
+    margin-left: 52.5%;
+    margin-top: 5%;
+    width: 47.5%;
+    height: auto;
+}
+
+.textocatequizaçao2 {
+    font-size: 25%;
+    text-align: justify;
+    margin-left: 52.5%;
+    margin-top: -41%;
+}
+
+.imgcatequizaçao2 {
+    margin-top: 3%;
+    width: 47.5%;
+    height: auto;
+}
+
+.textocatequizaçao3 {
+    margin-top: -68.5%;
+    font-size: 25%;
+    text-align: justify;
+    margin-right: 52.5%;
+}
+
+.imgcatequizaçao3 {
+    margin-left: 52.5%;
+    margin-top: 5%;
+    width: 47.5%;
+    height: auto;
+}
+
+.textocatequizaçao4 {
+    margin-top: 8%;
+    font-size: 25%;
+    text-align: justify;
+}
+
+.vão {
+    margin-top: 5%;
+    font-size: 5%;
+}
+
+.barraverderodape {
+    background-color: var(--cor-verde);
+    height: 5px;
+    border-radius: 3px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+footer {
+    display: flex;
+}
+
+.logorodape {
+    width: 25%;
+    height: auto;
+    border-radius: 3px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.nomeinstagram, .nometwitter, .nomeacervo {
+    font-size: 20%;
+    text-align: right;
+    margin-right: -40%;
+}
+
+.logoinstagram2, .logotwitter2, .logoacervo2  {
+    width: 2%;
+    height: auto;
+    margin-top: 1%;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar500px {
+    display: none;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar500px a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1366px) {
+
+    #titulo {
+        font-size: 30%;
+    }
+
+    #texto {
+        font-size: 18%;
+    }
+
+    .linksnavbardiv {
+        margin-left: 65%;
+        margin-right: -25%;
+    }
+
+    .fraseimagem {
+        font-size: 22%;
+    }
+
+    .logorodape {
+        width: 22%;
+    }
+
+    .nomeinstagram, .nometwitter, .nomeacervo {
+        font-size: 15%;
+        text-align: right;
+        margin-right: 25%;
+    }
+
+    .logoinstagram2, .logotwitter2, .logoacervo2  {
+        width: 5%;
+        height: auto;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #titulo {
+        font-size: 20%;
+    }
+
+    #texto {
+        font-size: 12%;
+    }
+
+    nav {
+        margin-top: -26%;
+    }
+
+    .linksnavbar {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: -26%;
+        margin-left: 90%;
+        font-size: 40%;
+        color: var(--cor-branco);
+    }
+
+    .navbar500px {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-cinzaclaro);
+    }
+
+    .elementosnav500px {
+        color: var(--cor-preto);
+        font-size: 25%;
+    }
+
+    .fraseimagem {
+        margin-top: -5%;
+        font-size: 10%;
+    } 
+    
+    .containers {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+    .container1, .container2, .container3 {
+        margin-top: 8%;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 100%;
+    }
+
+    .textografismoearte2 {
+        margin-top: 0%;
+    }
+
+    .fundoculturapt2 {
+        margin-top: -12%;
+    }
+
+    .culturapt2{
+        display: block;
+        align-items: center;
+    }
+
+    .titulocatequizaçao {
+        margin-top: -45%;
+    }
+
+    .textocatequizaçao1, .textocatequizaçao2, .textocatequizaçao3 {
+        color:var(--cor-preto);
+        font-family: 'Poppins';
+        font-size: 10.5%;
+        text-align: justify;
+        margin-top: 10%;
+        width: 100%;
+        margin-left: -2px;
+    }
+
+    .imgcatequizaçao1, .imgcatequizaçao2, .imgcatequizaçao3 {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 97%;
+        height: auto;
+    }
+
+    .barraverderodape {
+        margin-top: 10%;
+    }
+
+    .container4 {
+        margin-top: -15%;
+    }
+
+    .logorodape {
+        width: 30%;
+    }
+
+    .nomeinstagram, .nometwitter, .nomeacervo {
+        font-size: 9%;
+    }
+
+    .logoinstagram2, .logotwitter2, .logoacervo2 {
+        width: 10%;
+        height: auto;
+    }
+}

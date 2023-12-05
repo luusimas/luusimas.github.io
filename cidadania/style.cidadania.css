@@ -1,0 +1,7 @@
+/* Aplicando a fonte aos arquivos*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(fontes/Poppins-Light.ttf) format('truetype');
+}
+
+/*--------------------------------------------*/
